@@ -1,0 +1,10 @@
+E:\ООП\MesServer\MesServer\obj\Debug\MesServer.csproj.AssemblyReference.cache
+E:\ООП\MesServer\MesServer\obj\Debug\MesServer.Properties.Resources.resources
+E:\ООП\MesServer\MesServer\obj\Debug\MesServer.csproj.GenerateResource.cache
+E:\ООП\MesServer\MesServer\obj\Debug\MesServer.csproj.CoreCompileInputs.cache
+E:\ООП\MesServer\MesServer\bin\Debug\MesServer.exe.config
+E:\ООП\MesServer\MesServer\bin\Debug\MesServer.exe
+E:\ООП\MesServer\MesServer\bin\Debug\MesServer.pdb
+E:\ООП\MesServer\MesServer\obj\Debug\MesServer.exe
+E:\ООП\MesServer\MesServer\obj\Debug\MesServer.pdb
+E:\ООП\MesServer\MesServer\obj\Debug\MesServer.exe.config
