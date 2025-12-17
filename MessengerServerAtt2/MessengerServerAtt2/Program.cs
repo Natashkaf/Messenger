@@ -1,4 +1,4 @@
-﻿using MessengerServerAtt2.Hubs;
+using MessengerServerAtt2.Hubs;
 using MessengerServerAtt2.Models;
 using MessengerServerAtt2.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -68,13 +68,19 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policy =>
     {
-        policy.WithOrigins("http://localhost:3000", "https://localhost:3000",
-                          "http://localhost:4200", "https://localhost:4200")
-              .AllowAnyMethod()
-              .AllowAnyHeader()
-              .AllowCredentials();
+        policy.WithOrigins(
+            "http://localhost:8080",
+            "https://localhost:8080",
+            "http://localhost:3000",
+            "https://localhost:3000",
+            "http://localhost:4200",
+            "https://localhost:4200")
+        .AllowAnyMethod()
+        .AllowAnyHeader()
+        .AllowCredentials();
     });
 });
+
 builder.Services.AddScoped<IFileService, FileService>();
 var app = builder.Build();
 
